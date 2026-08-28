@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Surya Teknologi Solusi Indonesia - STECH</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#17253e',
+                        gold: '#e5a912',
+                        darknavy: '#0f172a',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- NAVBAR -->
+    <nav class="bg-navy text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-3">
+                    <span class="text-2xl font-black tracking-wider text-white">S<span class="text-gold">TECH</span></span>
+                    <span class="hidden md:inline-block text-xs border-l border-gray-500 pl-3 text-gray-300 font-medium">PT. SURYA TEKNOLOGI SOLUSI INDONESIA</span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#beranda" class="hover:text-gold transition">Beranda</a>
+                    <a href="#tentang" class="hover:text-gold transition">Tentang Kami</a>
+                    <a href="#layanan" class="hover:text-gold transition">Layanan</a>
+                    <a href="#kontak" class="hover:text-gold transition">Kontak</a>
+                </div>
+                <div>
+                    <a href="#kontak" class="bg-gold text-darknavy font-bold px-5 py-2.5 rounded-lg shadow hover:bg-yellow-500 transition">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="beranda" class="bg-gradient-to-br from-navy via-darknavy to-black text-white py-24 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 space-y-6 text-center md:text-left">
+                <span class="bg-gold/20 text-gold text-xs font-bold uppercase px-3 py-1 rounded-full border border-gold/30">Aplikasi & Perawatan Komputer Profesional</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
+                    Solusi Tepat untuk <span class="text-gold">Aplikasi Bisnis</span> & Perawatan IT Anda
+                </h1>
+                <p class="text-gray-300 text-lg">
+                    PT. Surya Teknologi Solusi Indonesia (<span class="text-gold font-semibold">STECH</span>) hadir memberikan jasa pembuatan aplikasi custom terbaik serta layanan perawatan komputer/hardware yang handal untuk kelancaran operasional usaha Anda.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-4 justify-center md:justify-start">
+                    <a href="#layanan" class="bg-gold text-darknavy text-center font-bold px-8 py-3 rounded-lg shadow-lg hover:bg-yellow-500 transition">Lihat Layanan</a>
+                    <a href="#kontak" class="border border-white text-white text-center font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-navy transition">Konsultasi Masalah IT</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+                <div class="bg-white/10 p-8 rounded-2xl border border-white/20 backdrop-blur-md shadow-2xl text-center max-w-md w-full">
+                    <div class="text-4xl font-black text-white tracking-widest mb-2">S<span class="text-gold">TECH</span></div>
+                    <div class="text-xs uppercase tracking-wider text-gold font-semibold mb-4">PT. Surya Teknologi Solusi Indonesia</div>
+                    <p class="text-sm text-gray-300">Spesialis Pengembangan Aplikasi & Maintenance Perangkat Komputer Kantor/Perusahaan.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TENTANG KAMI -->
+    <section id="tentang" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4">
+                <h2 class="text-3xl font-bold text-navy">Tentang STECH</h2>
+                <div class="w-16 h-1 bg-gold mx-auto rounded"></div>
+                <p class="text-gray-600 leading-relaxed">
+                    PT. Surya Teknologi Solusi Indonesia (STECH) merupakan mitra terpercaya dalam bidang teknologi informasi. Kami berfokus pada dua pilar utama: membangun aplikasi digital yang efisien untuk otomatisasi bisnis, serta menyediakan layanan perawatan dan perbaikan komputer/laptop secara berkala guna memastikan performa kerja perusahaan Anda tetap optimal tanpa hambatan.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAYANAN KAMI -->
+    <section id="layanan" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <h2 class="text-3xl font-bold text-navy">Fokus Layanan Kami</h2>
+                <div class="w-16 h-1 bg-gold mx-auto rounded"></div>
+                <p class="text-gray-600">Dua layanan inti yang dirancang khusus untuk memenuhi kebutuhan operasional teknologi Anda.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Layanan 1: Aplikasi -->
+                <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-gold hover:shadow-xl transition space-y-4">
+                    <div class="w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center text-gold font-bold text-xl">💻</div>
+                    <h3 class="text-navy font-bold text-2xl">Pengembangan Aplikasi (Software)</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Kami merancang dan mengembangkan berbagai jenis aplikasi sesuai kebutuhan bisnis Anda, meliputi:
+                    </p>
+                    <ul class="text-gray-600 text-sm space-y-2 list-disc list-inside">
+                        <li>Pembuatan Aplikasi Berbasis Web & Mobile (Android/iOS)</li>
+                        <li>Sistem Informasi Manajemen & Software Kasir/ERP</li>
+                        <li>Custom Software Development untuk Perusahaan</li>
+                    </ul>
+                </div>
+
+                <!-- Layanan 2: Perawatan Komputer -->
+                <div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-navy hover:shadow-xl transition space-y-4">
+                    <div class="w-12 h-12 bg-navy/10 rounded-lg flex items-center justify-center text-navy font-bold text-xl">🛠️</div>
+                    <h3 class="text-navy font-bold text-2xl">Perawatan & Maintenance Komputer</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Layanan pemeliharaan hardware dan software komputer secara berkala agar perangkat kantor selalu prima:
+                    </p>
+                    <ul class="text-gray-600 text-sm space-y-2 list-disc list-inside">
+                        <li>Maintenance Berkala (Preventive & Corrective Maintenance)</li>
+                        <li>Perbaikan Komputer, Laptop, dan Jaringan Kantor</li>
+                        <li>Instalasi Ulang, Pembersihan Virus, dan Upgrade Hardware</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-20 bg-navy text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
+            <div class="max-w-2xl mx-auto space-y-4">
+                <h2 class="text-3xl font-bold">Butuh Bantuan Aplikasi atau Perawatan Komputer?</h2>
+                <p class="text-gray-300">Diskusikan kebutuhan proyek aplikasi atau jadwalkan perawatan komputer perusahaan Anda bersama tim STECH.</p>
+            </div>
+            <div class="inline-block bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-sm max-w-lg w-full text-left space-y-4">
+                <div class="flex items-center space-x-4">
+                    <span class="text-gold font-bold">📍 Lokasi:</span>
+                    <span class="text-gray-300 text-sm">Indonesia</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-gold font-bold">📧 Email:</span>
+                    <span class="text-gray-300 text-sm">info@stech.co.id (Contoh)</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-gold font-bold">📞 Telepon/WhatsApp:</span>
+                    <span class="text-gray-300 text-sm">+62 8XX-XXXX-XXXX</span>
+                </div>
+            </div>
+            <div>
+                <a href="https://wa.me/6280000000000" target="_blank" class="inline-block bg-gold text-darknavy font-bold px-8 py-3 rounded-lg shadow hover:bg-yellow-500 transition">Hubungi via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-darknavy text-gray-400 py-8 text-center text-xs border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 space-y-2">
+            <p class="font-bold text-white text-sm">PT. SURYA TEKNOLOGI SOLUSI INDONESIA (STECH)</p>
+            <p>&copy; 2026 Hak Cipta Dilindungi Undang-Undang.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
