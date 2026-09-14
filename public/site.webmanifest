@@ -1,0 +1,10 @@
+{
+  "name": "STech — PT. Surya Teknologi Solusi Indonesia",
+  "short_name": "STech",
+  "description": "Teknologi yang menggerakkan bisnis.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffdf8",
+  "theme_color": "#071b47",
+  "lang": "id-ID"
+}
